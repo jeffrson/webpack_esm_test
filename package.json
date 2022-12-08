@@ -1,0 +1,11 @@
+{
+  "name": "@internal/wsdemo",
+  "packageManager": "yarn@3.3.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "libs/*"
+    ]
+  }
+}
