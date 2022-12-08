@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import { Root } from './root/root'
+import { Root } from './root/root.js'
 
 const rootElement  = document.getElementById('root')
 if (!rootElement) throw new Error('Failed to find the root element')

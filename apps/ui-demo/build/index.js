@@ -1,18 +1,10 @@
 /******/ (function() { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
-
-/***/ 429:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-!function(e,t){ true?module.exports=t(__webpack_require__(784)):0}(self,(e=>(()=>{"use strict";var t=[,t=>{t.exports=e}],r={};function o(e){var n=r[e];if(void 0!==n)return n.exports;var i=r[e]={exports:{}};return t[e](i,i.exports,o),i.exports}o.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return o.d(t,{a:t}),t},o.d=(e,t)=>{for(var r in t)o.o(t,r)&&!o.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},o.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),o.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var n={};return(()=>{o.r(n),o.d(n,{CustomHeadline:()=>r});var e=o(1),t=o.n(e);class r extends t().PureComponent{render(){return t().createElement("h1",null,this.props.title)}}})(),n})()));
-//# sourceMappingURL=index.js.map
-
-/***/ }),
 
 /***/ 967:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 /**
  * @license React
  * react-dom.production.min.js
@@ -343,7 +335,6 @@ exports.unstable_renderSubtreeIntoContainer=function(a,b,c,d){if(!pl(c))throw Er
 /***/ 29:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 
 var m = __webpack_require__(316);
@@ -358,7 +349,6 @@ if (true) {
 /***/ 316:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-"use strict";
 
 
 function checkDCE() {
@@ -393,7 +383,6 @@ if (true) {
 /***/ 426:
 /***/ (function(__unused_webpack_module, exports) {
 
-"use strict";
 /**
  * @license React
  * react.production.min.js
@@ -427,7 +416,6 @@ exports.useTransition=function(){return U.current.useTransition()};exports.versi
 /***/ 784:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-"use strict";
 
 
 if (true) {
@@ -440,7 +428,6 @@ if (true) {
 /***/ 475:
 /***/ (function(__unused_webpack_module, exports) {
 
-"use strict";
 /**
  * @license React
  * scheduler.production.min.js
@@ -467,7 +454,6 @@ exports.unstable_shouldYield=M;exports.unstable_wrapCallback=function(a){var b=y
 /***/ 616:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-"use strict";
 
 
 if (true) {
@@ -504,23 +490,39 @@ if (true) {
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	!function() {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = function(exports) {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
-"use strict";
+
+// NAMESPACE OBJECT: ../../libs/lib-client/dist/index.js
+var dist_namespaceObject = {};
+__webpack_require__.r(dist_namespaceObject);
 
 // EXTERNAL MODULE: ../../node_modules/react/index.js
 var react = __webpack_require__(784);
 // EXTERNAL MODULE: ../../node_modules/react-dom/client.js
 var client = __webpack_require__(29);
-// EXTERNAL MODULE: ../../libs/lib-client/dist/index.js
-var dist = __webpack_require__(429);
+;// CONCATENATED MODULE: ../../libs/lib-client/dist/index.js
+!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(require("react")):"function"==typeof define&&define.amd?define(["react"],t):"object"==typeof exports?exports["@internal/lib-client"]=t(require("react")):e["@internal/lib-client"]=t(e.React)}(self,(e=>(()=>{"use strict";var t=[,t=>{t.exports=e}],r={};function o(e){var n=r[e];if(void 0!==n)return n.exports;var i=r[e]={exports:{}};return t[e](i,i.exports,o),i.exports}o.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return o.d(t,{a:t}),t},o.d=(e,t)=>{for(var r in t)o.o(t,r)&&!o.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},o.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),o.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var n={};return(()=>{o.r(n),o.d(n,{CustomHeadline:()=>r});var e=o(1),t=o.n(e);class r extends t().PureComponent{render(){return t().createElement("h1",null,this.props.title)}}})(),n})()));
+//# sourceMappingURL=index.js.map
 ;// CONCATENATED MODULE: ./src/root/root.tsx
 
 
 class Root extends react.PureComponent {
     render() {
-        return (react.createElement(dist.CustomHeadline, { title: 'Headline' }));
+        return (react.createElement(dist_namespaceObject.CustomHeadline, { title: 'Headline' }));
     }
 }
 

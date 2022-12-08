@@ -1,1 +1,1 @@
-export * from './CustomHeadline'
+export * from './CustomHeadline.js'

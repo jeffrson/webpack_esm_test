@@ -28,8 +28,9 @@
     "license": "MIT",
     "private": true,
     "name": "@internal/ui-demo",
+    "type": "module",
     "scripts": {
-        "build": "webpack build --env production --stats errors-only",
+        "build": "webpack build --env production",
         "watch": "webpack serve --port 3006 --hot --open"
     },
     "version": "1.0.0"
